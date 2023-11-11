@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#container {
+    height: 100%;
+    background-color: black;
+    margin-top: 200px;
+}
+
+#result {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    height: 39%;
+    font-size: 100px;
+}
+
+#result span {
+    margin-right: 60px;
+    font-size: 100px;
+    justify-self: flex-end;
+}
+
+#content {
+    margin-top: 0;
+    width: 100%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+#nCl {
+    background-color: gray;
+    font-weight: bold;
+    border: none;
+    color: black;
+}
+
+#nPom {
+    background-color: gray;
+    font-weight: bold;
+    border: none;
+    color: black;
+}
+
+#nPresn {
+    background-color: gray;
+    font-weight: bold;
+    border: none;
+    color: black;
+}
+
+#nDiv {
+    background-color: rgb(233, 203, 8);
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+
+#nMul {
+    background-color: rgb(233, 203, 8);
+    border: none;
+    font-weight: bold;
+    color: black;
+}
+
+#nMin {
+    background-color: rgb(233, 203, 8);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nPl {
+    background-color: rgb(233, 203, 8);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nEq {
+    background-color: rgb(233, 203, 8);
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+#n0 {
+   width: 100px;
+   border-radius: 100%;
+  
+}
+
+#nErase {
+    border: gray;
+    background-color: grey;
+}
